@@ -1,0 +1,19 @@
+{
+  "name": "distopic_bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram con funcionalidades de resumen y respuesta a preguntas",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js",
+    "dev": "nodemon api/webhook.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
