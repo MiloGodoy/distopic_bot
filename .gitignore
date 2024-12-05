@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Logs
+logs/
+*.log
+
+# Sistema de archivos de OS
+.DS_Store
+Thumbs.db
+
+# Otros archivos ocultos
+.vscode/
+.idea/
